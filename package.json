@@ -1,7 +1,7 @@
 {
   "name": "protractor",
-  "description": "Webdriver E2E test wrapper for Angular.",
-  "homepage": "https://github.com/angular/protractor",
+  "description": "Webdriver E2E test wrapper for Angular with a fix to solve the issue starting from 115 chrome. Here is more information about the changes from 115 chrome: https://developer.chrome.com/docs/chromedriver/downloads/version-selection.",
+  "homepage": "https://github.com/penfriend/protractor-fix-starting-from-115-chrome.git",
   "keywords": [
     "angular",
     "test",
@@ -10,7 +10,7 @@
     "webdriverjs",
     "selenium"
   ],
-  "author": "Julie Ralph <ju.ralph@gmail.com>",
+  "author": "Julie Ralph <ju.ralph@gmail.com>, Diana Holik <dianapenfriend@gmail.com>",
   "dependencies": {
     "blocking-proxy": "^1.0.0",
     "browserstack": "^1.5.1",
@@ -20,7 +20,7 @@
     "saucelabs": "^1.5.0",
     "selenium-webdriver": "^4.0.0-alpha.1",
     "source-map-support": "~0.4.0",
-    "webdriver-manager": "13.0.0",
+    "webdriver-manager-fix-starting-from-115-chrome": "^1.0.0",
     "yargs": "^15.3.1"
   },
   "devDependencies": {
@@ -53,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/angular/protractor.git"
+    "url": "https://github.com/penfriend/protractor-fix-starting-from-115-chrome.git"
   },
   "bin": {
     "protractor": "bin/protractor",
@@ -76,7 +76,7 @@
   "engines": {
     "node": ">=8.8.x"
   },
-  "version": "6.0.0",
+  "version": "1.0.0",
   "publishConfig":{
     "registry": "https://wombat-dressing-room.appspot.com"
   }
