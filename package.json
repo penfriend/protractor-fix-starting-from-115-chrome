@@ -76,8 +76,5 @@
   "engines": {
     "node": ">=8.8.x"
   },
-  "version": "1.0.0",
-  "publishConfig":{
-    "registry": "https://wombat-dressing-room.appspot.com"
-  }
+  "version": "1.0.1"
 }
