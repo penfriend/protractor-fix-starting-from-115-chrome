@@ -8,7 +8,7 @@ import {Capabilities, WebDriver} from 'selenium-webdriver';
 import {Driver as DriverForChrome, ServiceBuilder as ServiceBuilderForChrome} from 'selenium-webdriver/chrome';
 import {Driver as DriverForFirefox, ServiceBuilder as SerivceBuilderForFirefox} from 'selenium-webdriver/firefox';
 
-import {ChromeDriver, GeckoDriver} from 'webdriver-manager';
+import {ChromeDriver, GeckoDriver} from 'webdriver-manager-fix-starting-from-115-chrome';
 
 import {Config} from '../config';
 import {BrowserError} from '../exitCodes';

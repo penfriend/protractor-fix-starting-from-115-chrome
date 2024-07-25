@@ -8,7 +8,7 @@
  */
 import * as fs from 'fs';
 import {SeleniumServer} from 'selenium-webdriver/remote';
-import {ChromeDriver, GeckoDriver, SeleniumServer as WdmSeleniumServer} from 'webdriver-manager';
+import {ChromeDriver, GeckoDriver, SeleniumServer as WdmSeleniumServer} from 'webdriver-manager-fix-starting-from-115-chrome';
 
 import {Config} from '../config';
 import {BrowserError, ConfigError} from '../exitCodes';
