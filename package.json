@@ -76,5 +76,5 @@
   "engines": {
     "node": ">=8.8.x"
   },
-  "version": "1.0.1"
+  "version": "1.0.3"
 }
